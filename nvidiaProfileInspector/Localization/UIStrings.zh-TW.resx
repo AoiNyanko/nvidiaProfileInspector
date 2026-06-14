@@ -286,6 +286,9 @@
   <data name="CommonSettings" xml:space="preserve">
     <value>常用設定</value>
   </data>
+  <data name="CommonAndDriverSettings" xml:space="preserve">
+    <value>常用 + 驅動程式</value>
+  </data>
   <data name="Compact" xml:space="preserve">
     <value>精簡</value>
   </data>

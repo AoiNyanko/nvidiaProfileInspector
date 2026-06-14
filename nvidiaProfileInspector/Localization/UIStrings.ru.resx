@@ -286,6 +286,9 @@
   <data name="CommonSettings" xml:space="preserve">
     <value>Общие настройки</value>
   </data>
+  <data name="CommonAndDriverSettings" xml:space="preserve">
+    <value>Общие + драйвер</value>
+  </data>
   <data name="Compact" xml:space="preserve">
     <value>Компактный</value>
   </data>

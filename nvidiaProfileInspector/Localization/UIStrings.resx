@@ -286,6 +286,9 @@
   <data name="CommonSettings" xml:space="preserve">
     <value>Common Settings</value>
   </data>
+  <data name="CommonAndDriverSettings" xml:space="preserve">
+    <value>Common + Driver</value>
+  </data>
   <data name="Compact" xml:space="preserve">
     <value>Compact</value>
   </data>

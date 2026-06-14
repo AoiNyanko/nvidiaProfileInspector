@@ -286,6 +286,9 @@
   <data name="CommonSettings" xml:space="preserve">
     <value>일반 설정</value>
   </data>
+  <data name="CommonAndDriverSettings" xml:space="preserve">
+    <value>공통 + 드라이버</value>
+  </data>
   <data name="Compact" xml:space="preserve">
     <value>간단히</value>
   </data>

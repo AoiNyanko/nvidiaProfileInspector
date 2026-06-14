@@ -566,6 +566,15 @@ namespace nvidiaProfileInspector.Localization {
         }
 
         /// <summary>
+        ///   查找类似 Common + Driver 的本地化字符串。
+        /// </summary>
+        public static string CommonAndDriverSettings {
+            get {
+                return ResourceManager.GetString("CommonAndDriverSettings", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   查找类似 Compact 的本地化字符串。
         /// </summary>
         public static string Compact {
