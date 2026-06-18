@@ -95,12 +95,12 @@ namespace nvidiaProfileInspector
                 return;
             }
 
-            //if (!TryAcquireSingleInstanceMutex())
-            //{
-            //    ActivateRunningInstance();
-            //    Shutdown();
-            //    return;
-            //}
+            if (!TryAcquireSingleInstanceMutex())
+            {
+                ActivateRunningInstance();
+                Shutdown();
+                return;
+            }
 
             ShowStartupSplashScreen();
             //await Dispatcher.InvokeAsync(() => { }, DispatcherPriority.ApplicationIdle); // Ensure UI is responsive
