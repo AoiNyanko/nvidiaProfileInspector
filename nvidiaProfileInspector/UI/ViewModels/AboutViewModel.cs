@@ -266,6 +266,13 @@ namespace nvidiaProfileInspector.UI.ViewModels
                 AvatarUrl = "https://github.com/DarkStarSword.png",
                 ProfileUrl = "https://github.com/DarkStarSword"
             });
+            Contributors.Add(new Contributor
+            {
+                Name = "AoiNyanko",
+                Role = UIStrings.ContributorRoleContributor,
+                AvatarUrl = "https://github.com/AoiNyanko.png",
+                ProfileUrl = "https://github.com/AoiNyanko"
+            });
         }
 
         private void OpenUrl(string url)
