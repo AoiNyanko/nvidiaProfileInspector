@@ -166,6 +166,12 @@
   <data name="ApplicationAlreadyUsedByProfile" xml:space="preserve">
     <value>- Anwendung '{0}' wird bereits vom Profil '{1}' verwendet</value>
   </data>
+  <data name="ApplicationAlreadyExistsInProfile" xml:space="preserve">
+    <value>Die Anwendung ist in diesem Profil bereits vorhanden.</value>
+  </data>
+  <data name="ApplicationAlreadyInUseByOtherProfile" xml:space="preserve">
+    <value>Die Anwendung wird bereits von einem anderen Profil verwendet</value>
+  </data>
   <data name="ApplicationIdentifierRequired" xml:space="preserve">
     <value>Geben Sie einen Dateinamen, eine UWP-ID oder einen absoluten Pfad ein.</value>
   </data>
@@ -540,6 +546,63 @@ Hinweis: Vordefinierte NVIDIA-Profile können erst nach der nächsten Treiberins
   </data>
   <data name="FilterSettingsTooltip" xml:space="preserve">
     <value>Einstellungen nach Typ filtern</value>
+  </data>
+  <data name="FilterSourceButtonTooltip" xml:space="preserve">
+    <value>Einstellungs- und Wertquellen filtern</value>
+  </data>
+  <data name="FilterFlyoutSettingSource" xml:space="preserve">
+    <value>EINSTELLUNGSQUELLE</value>
+  </data>
+  <data name="FilterFlyoutValueSource" xml:space="preserve">
+    <value>WERTQUELLE</value>
+  </data>
+  <data name="FilterFlyoutCommonCsn" xml:space="preserve">
+    <value>Allgemein (CSN)</value>
+  </data>
+  <data name="FilterFlyoutDriverApi" xml:space="preserve">
+    <value>Treiber-API</value>
+  </data>
+  <data name="FilterFlyoutDriverConstants" xml:space="preserve">
+    <value>Treiberkonstanten</value>
+  </data>
+  <data name="FilterFlyoutReference" xml:space="preserve">
+    <value>Referenz</value>
+  </data>
+  <data name="FilterFlyoutPredefinedScan" xml:space="preserve">
+    <value>Vordefinierter Scan</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSources" xml:space="preserve">
+    <value>Aktive Einstellungen aus deaktivierten Quellen anzeigen</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSourcesTooltip" xml:space="preserve">
+    <value>Auch wenn eine Einstellungsquelle deaktiviert ist, werden ihre Einstellungen angezeigt, wenn sie im aktuellen Profil aktiv sind (vordefiniert, global oder Benutzerwert).</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSources" xml:space="preserve">
+    <value>Name und Beschreibung aus inaktiven Quellen</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSourcesTooltip" xml:space="preserve">
+    <value>Erlaubt, dass Name und Beschreibung einer Einstellung aus aktuell deaktivierten Quellen stammen.</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValues" xml:space="preserve">
+    <value>Gleiche Werte zusammenführen</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValuesTooltip" xml:space="preserve">
+    <value>Einträge mit demselben Wert aus verschiedenen Quellen zu einem Eintrag zusammenführen (Name mit höchster Priorität gewinnt).</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommon" xml:space="preserve">
+    <value>Vordefinierte App-Liste zu allgemeinen Werten hinzufügen</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommonTooltip" xml:space="preserve">
+    <value>Vordefinierte Scanwerte (App-Liste) mit passenden allgemeinen Werten zusammenführen, statt sie als separate Zeilen anzuzeigen.</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaults" xml:space="preserve">
+    <value>Standardwerte wiederherstellen</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaultsTooltip" xml:space="preserve">
+    <value>Alle Filter- und Wertoptionen auf ihre Standardwerte zurücksetzen</value>
+  </data>
+  <data name="ModifiedOnlyTooltip" xml:space="preserve">
+    <value>Nur aktive oder geänderte Einstellungen anzeigen</value>
   </data>
   <data name="GameExecutableNotFound" xml:space="preserve">
     <value>Die ausführbare Spieldatei wurde nicht gefunden.</value>

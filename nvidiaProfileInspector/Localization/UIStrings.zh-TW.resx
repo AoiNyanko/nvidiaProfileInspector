@@ -166,6 +166,12 @@
   <data name="ApplicationAlreadyUsedByProfile" xml:space="preserve">
     <value>- 應用程式「{0}」已由設定檔「{1}」使用</value>
   </data>
+  <data name="ApplicationAlreadyExistsInProfile" xml:space="preserve">
+    <value>應用程式已存在於此設定檔中。</value>
+  </data>
+  <data name="ApplicationAlreadyInUseByOtherProfile" xml:space="preserve">
+    <value>應用程式已被其他設定檔使用</value>
+  </data>
   <data name="ApplicationIdentifierRequired" xml:space="preserve">
     <value>請輸入檔名、UWP ID 或絕對路徑。</value>
   </data>
@@ -540,6 +546,63 @@
   </data>
   <data name="FilterSettingsTooltip" xml:space="preserve">
     <value>依類型篩選設定</value>
+  </data>
+  <data name="FilterSourceButtonTooltip" xml:space="preserve">
+    <value>篩選設定和值來源</value>
+  </data>
+  <data name="FilterFlyoutSettingSource" xml:space="preserve">
+    <value>設定來源</value>
+  </data>
+  <data name="FilterFlyoutValueSource" xml:space="preserve">
+    <value>值來源</value>
+  </data>
+  <data name="FilterFlyoutCommonCsn" xml:space="preserve">
+    <value>通用 (CSN)</value>
+  </data>
+  <data name="FilterFlyoutDriverApi" xml:space="preserve">
+    <value>驅動程式 API</value>
+  </data>
+  <data name="FilterFlyoutDriverConstants" xml:space="preserve">
+    <value>驅動程式常數</value>
+  </data>
+  <data name="FilterFlyoutReference" xml:space="preserve">
+    <value>參考</value>
+  </data>
+  <data name="FilterFlyoutPredefinedScan" xml:space="preserve">
+    <value>預先定義掃描</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSources" xml:space="preserve">
+    <value>顯示已停用來源中的作用中設定</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSourcesTooltip" xml:space="preserve">
+    <value>即使某個設定來源已關閉，只要其設定在目前設定檔中為作用中（預先定義、全域或使用者值），也會顯示這些設定。</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSources" xml:space="preserve">
+    <value>從非作用中來源讀取名稱和說明</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSourcesTooltip" xml:space="preserve">
+    <value>允許設定的名稱和說明來自目前已停用的來源。</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValues" xml:space="preserve">
+    <value>合併相同值</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValuesTooltip" xml:space="preserve">
+    <value>將來自不同來源且值相同的項目合併為一個（使用最高優先順序的名稱）。</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommon" xml:space="preserve">
+    <value>將預先定義應用程式清單合併到通用值</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommonTooltip" xml:space="preserve">
+    <value>讓預先定義掃描（應用程式清單）值合併到符合的通用值，而不是顯示為單獨列。</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaults" xml:space="preserve">
+    <value>還原預設值</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaultsTooltip" xml:space="preserve">
+    <value>將所有篩選和值選項重設為預設值</value>
+  </data>
+  <data name="ModifiedOnlyTooltip" xml:space="preserve">
+    <value>僅顯示作用中或已修改的設定</value>
   </data>
   <data name="GameExecutableNotFound" xml:space="preserve">
     <value>找不到遊戲執行檔。</value>

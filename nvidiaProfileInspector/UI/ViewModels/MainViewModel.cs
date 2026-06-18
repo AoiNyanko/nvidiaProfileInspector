@@ -1304,7 +1304,7 @@ namespace nvidiaProfileInspector.UI.ViewModels
                     return UIStrings.ApplicationIdentifierRequired;
 
                 if (Applications.Any(_ => _.Name.Equals(NormalizeNvidiaAppPath(val), StringComparison.InvariantCultureIgnoreCase)))
-                    return "Application already exists in this profile.";
+                    return UIStrings.ApplicationAlreadyExistsInProfile;
 
                 string findFileStr = "FindFile=";
                 int findFileIndex = val.IndexOf(findFileStr, StringComparison.OrdinalIgnoreCase);
@@ -1352,7 +1352,7 @@ namespace nvidiaProfileInspector.UI.ViewModels
                         if (!string.IsNullOrWhiteSpace(profileName))
                             OnShowError?.Invoke(string.Format(UIStrings.ApplicationAlreadyUsedByProfile, dialog.InputValue, profileName));
                         else
-                            OnShowError?.Invoke("Application already in use by other profile");
+                            OnShowError?.Invoke(UIStrings.ApplicationAlreadyInUseByOtherProfile);
                     }
                     else
                         OnShowError?.Invoke(ex.Message);

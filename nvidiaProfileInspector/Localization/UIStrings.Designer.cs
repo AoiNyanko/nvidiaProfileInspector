@@ -206,6 +206,24 @@ namespace nvidiaProfileInspector.Localization {
         }
 
         /// <summary>
+        ///   查找类似 Application already exists in this profile. 的本地化字符串。
+        /// </summary>
+        public static string ApplicationAlreadyExistsInProfile {
+            get {
+                return ResourceManager.GetString("ApplicationAlreadyExistsInProfile", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Application already in use by other profile 的本地化字符串。
+        /// </summary>
+        public static string ApplicationAlreadyInUseByOtherProfile {
+            get {
+                return ResourceManager.GetString("ApplicationAlreadyInUseByOtherProfile", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   查找类似 Enter a filename, UWP ID, or absolute path. 的本地化字符串。
         /// </summary>
         public static string ApplicationIdentifierRequired {
@@ -1301,6 +1319,177 @@ namespace nvidiaProfileInspector.Localization {
         public static string FilterSettingsTooltip {
             get {
                 return ResourceManager.GetString("FilterSettingsTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Filter setting and value sources 的本地化字符串。
+        /// </summary>
+        public static string FilterSourceButtonTooltip {
+            get {
+                return ResourceManager.GetString("FilterSourceButtonTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 SETTING SOURCE 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutSettingSource {
+            get {
+                return ResourceManager.GetString("FilterFlyoutSettingSource", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 VALUE SOURCE 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutValueSource {
+            get {
+                return ResourceManager.GetString("FilterFlyoutValueSource", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Common (CSN) 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutCommonCsn {
+            get {
+                return ResourceManager.GetString("FilterFlyoutCommonCsn", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Driver API 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutDriverApi {
+            get {
+                return ResourceManager.GetString("FilterFlyoutDriverApi", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Driver Constants 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutDriverConstants {
+            get {
+                return ResourceManager.GetString("FilterFlyoutDriverConstants", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Reference 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutReference {
+            get {
+                return ResourceManager.GetString("FilterFlyoutReference", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Predefined Scan 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutPredefinedScan {
+            get {
+                return ResourceManager.GetString("FilterFlyoutPredefinedScan", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Show active settings from disabled sources 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutShowActiveFromDisabledSources {
+            get {
+                return ResourceManager.GetString("FilterFlyoutShowActiveFromDisabledSources", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Even if a setting source is off, show its settings when they are active in the current profile (predefined, global, or user value). 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutShowActiveFromDisabledSourcesTooltip {
+            get {
+                return ResourceManager.GetString("FilterFlyoutShowActiveFromDisabledSourcesTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Name &amp; description from inactive sources 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutAllowMetaFromInactiveSources {
+            get {
+                return ResourceManager.GetString("FilterFlyoutAllowMetaFromInactiveSources", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Allow a setting&apos;s name and description to come from sources that are currently disabled. 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutAllowMetaFromInactiveSourcesTooltip {
+            get {
+                return ResourceManager.GetString("FilterFlyoutAllowMetaFromInactiveSourcesTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Merge distinct values 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutMergeDistinctValues {
+            get {
+                return ResourceManager.GetString("FilterFlyoutMergeDistinctValues", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Merge entries with the same value from different sources into one (highest-priority name wins). 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutMergeDistinctValuesTooltip {
+            get {
+                return ResourceManager.GetString("FilterFlyoutMergeDistinctValuesTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Add predefined app list to common values 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutAddPredefinedAppListToCommon {
+            get {
+                return ResourceManager.GetString("FilterFlyoutAddPredefinedAppListToCommon", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Let the predefined scan (app list) values merge into the matching common values instead of showing as separate rows. 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutAddPredefinedAppListToCommonTooltip {
+            get {
+                return ResourceManager.GetString("FilterFlyoutAddPredefinedAppListToCommonTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Restore defaults 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutRestoreDefaults {
+            get {
+                return ResourceManager.GetString("FilterFlyoutRestoreDefaults", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Reset all filter and value options to their defaults 的本地化字符串。
+        /// </summary>
+        public static string FilterFlyoutRestoreDefaultsTooltip {
+            get {
+                return ResourceManager.GetString("FilterFlyoutRestoreDefaultsTooltip", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   查找类似 Show active or modified settings only 的本地化字符串。
+        /// </summary>
+        public static string ModifiedOnlyTooltip {
+            get {
+                return ResourceManager.GetString("ModifiedOnlyTooltip", resourceCulture);
             }
         }
 

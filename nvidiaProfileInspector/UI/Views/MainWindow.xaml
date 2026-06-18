@@ -1210,7 +1210,7 @@
                                 x:Name="FilterSourceButton"
                                 Command="{Binding ToggleFilterMenuCommand}"
                                 Style="{StaticResource FilterSourceButtonStyle}"
-                                ToolTip="Filter setting and value sources">
+                                ToolTip="{x:Static localization:UIStrings.FilterSourceButtonTooltip}">
                                 <Path
                                     Width="16"
                                     Height="16"
@@ -1242,7 +1242,7 @@
                                             ShadowDepth="4" />
                                     </Border.Effect>
                                     <StackPanel Width="252">
-                                        <TextBlock Style="{StaticResource FilterFlyoutCategoryHeaderStyle}" Text="SETTING SOURCE" />
+                                        <TextBlock Style="{StaticResource FilterFlyoutCategoryHeaderStyle}" Text="{x:Static localization:UIStrings.FilterFlyoutSettingSource}" />
                                         <CheckBox IsChecked="{Binding SettingSourceCommon}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
                                             <StackPanel Orientation="Horizontal">
                                                 <Path
@@ -1256,7 +1256,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Common (CSN)" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutCommonCsn}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding SettingSourceDriver}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1272,7 +1272,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Driver API" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutDriverApi}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding SettingSourceConstants}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1288,7 +1288,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Driver Constants" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutDriverConstants}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding SettingSourceReference}" IsEnabled="{Binding IsReferenceAvailable}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1304,7 +1304,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Reference" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutReference}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding SettingSourceScan}" IsEnabled="{Binding IsScanAvailable}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1320,7 +1320,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Predefined Scan" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutPredefinedScan}" />
                                             </StackPanel>
                                         </CheckBox>
 
@@ -1332,23 +1332,23 @@
                                         <CheckBox
                                             IsChecked="{Binding ShowActiveFromDisabledSources}"
                                             Style="{StaticResource FilterFlyoutCheckBoxStyle}"
-                                            ToolTip="Even if a setting source is off, show its settings when they are active in the current profile (predefined, global, or user value).">
+                                            ToolTip="{x:Static localization:UIStrings.FilterFlyoutShowActiveFromDisabledSourcesTooltip}">
                                             <TextBlock
                                                 VerticalAlignment="Center"
                                                 FontSize="11"
                                                 Foreground="{DynamicResource TextSecondaryBrush}"
-                                                Text="Show active settings from disabled sources"
+                                                Text="{x:Static localization:UIStrings.FilterFlyoutShowActiveFromDisabledSources}"
                                                 TextWrapping="Wrap" />
                                         </CheckBox>
                                         <CheckBox
                                             IsChecked="{Binding AllowMetaFromInactiveSources}"
                                             Style="{StaticResource FilterFlyoutCheckBoxStyle}"
-                                            ToolTip="Allow a setting's name and description to come from sources that are currently disabled.">
+                                            ToolTip="{x:Static localization:UIStrings.FilterFlyoutAllowMetaFromInactiveSourcesTooltip}">
                                             <TextBlock
                                                 VerticalAlignment="Center"
                                                 FontSize="11"
                                                 Foreground="{DynamicResource TextSecondaryBrush}"
-                                                Text="Name &amp; description from inactive sources"
+                                                Text="{x:Static localization:UIStrings.FilterFlyoutAllowMetaFromInactiveSources}"
                                                 TextWrapping="Wrap" />
                                         </CheckBox>
 
@@ -1357,7 +1357,7 @@
                                             Margin="6,8"
                                             Background="{DynamicResource ControlBorderBrush}" />
 
-                                        <TextBlock Style="{StaticResource FilterFlyoutCategoryHeaderStyle}" Text="VALUE SOURCE" />
+                                        <TextBlock Style="{StaticResource FilterFlyoutCategoryHeaderStyle}" Text="{x:Static localization:UIStrings.FilterFlyoutValueSource}" />
                                         <CheckBox IsChecked="{Binding ValueSourceCommon}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
                                             <StackPanel Orientation="Horizontal">
                                                 <Path
@@ -1371,7 +1371,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Common (CSN)" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutCommonCsn}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding ValueSourceDriver}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1387,7 +1387,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Driver API" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutDriverApi}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding ValueSourceConstants}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1403,7 +1403,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Driver Constants" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutDriverConstants}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding ValueSourceReference}" IsEnabled="{Binding IsReferenceAvailable}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1419,7 +1419,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Reference" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutReference}" />
                                             </StackPanel>
                                         </CheckBox>
                                         <CheckBox IsChecked="{Binding ValueSourceScan}" IsEnabled="{Binding IsScanAvailable}" Style="{StaticResource FilterFlyoutCheckBoxStyle}">
@@ -1435,7 +1435,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Predefined Scan" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutPredefinedScan}" />
                                             </StackPanel>
                                         </CheckBox>
 
@@ -1447,24 +1447,24 @@
                                         <CheckBox
                                             IsChecked="{Binding MergeDistinctValues}"
                                             Style="{StaticResource FilterFlyoutCheckBoxStyle}"
-                                            ToolTip="Merge entries with the same value from different sources into one (highest-priority name wins).">
+                                            ToolTip="{x:Static localization:UIStrings.FilterFlyoutMergeDistinctValuesTooltip}">
                                             <TextBlock
                                                 VerticalAlignment="Center"
                                                 FontSize="11"
                                                 Foreground="{DynamicResource TextSecondaryBrush}"
-                                                Text="Merge distinct values"
+                                                Text="{x:Static localization:UIStrings.FilterFlyoutMergeDistinctValues}"
                                                 TextWrapping="Wrap" />
                                         </CheckBox>
                                         <CheckBox
                                             IsChecked="{Binding AddPredefinedAppListToCommon}"
                                             IsEnabled="{Binding IsScanAvailable}"
                                             Style="{StaticResource FilterFlyoutCheckBoxStyle}"
-                                            ToolTip="Let the predefined scan (app list) values merge into the matching common values instead of showing as separate rows.">
+                                            ToolTip="{x:Static localization:UIStrings.FilterFlyoutAddPredefinedAppListToCommonTooltip}">
                                             <TextBlock
                                                 VerticalAlignment="Center"
                                                 FontSize="11"
                                                 Foreground="{DynamicResource TextSecondaryBrush}"
-                                                Text="Add predefined app list to common values"
+                                                Text="{x:Static localization:UIStrings.FilterFlyoutAddPredefinedAppListToCommon}"
                                                 TextWrapping="Wrap" />
                                         </CheckBox>
 
@@ -1475,7 +1475,7 @@
                                         <Button
                                             Command="{Binding ResetFilterDefaultsCommand}"
                                             Style="{StaticResource FilterFlyoutResetButtonStyle}"
-                                            ToolTip="Reset all filter and value options to their defaults">
+                                            ToolTip="{x:Static localization:UIStrings.FilterFlyoutRestoreDefaultsTooltip}">
                                             <StackPanel Orientation="Horizontal">
                                                 <Path
                                                     Width="13"
@@ -1488,7 +1488,7 @@
                                                 <TextBlock
                                                     VerticalAlignment="Center"
                                                     FontSize="12"
-                                                    Text="Restore defaults" />
+                                                    Text="{x:Static localization:UIStrings.FilterFlyoutRestoreDefaults}" />
                                             </StackPanel>
                                         </Button>
                                     </StackPanel>
@@ -1502,7 +1502,7 @@
                             Margin="8,0,0,0"
                             IsChecked="{Binding ModifiedOnly}"
                             Style="{StaticResource ModifiedOnlyToggleStyle}"
-                            ToolTip="Show active or modified settings only" />
+                            ToolTip="{x:Static localization:UIStrings.ModifiedOnlyTooltip}" />
                     </Grid>
 
                     <!--  Settings ListView  -->

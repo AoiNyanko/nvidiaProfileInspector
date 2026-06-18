@@ -166,6 +166,12 @@
   <data name="ApplicationAlreadyUsedByProfile" xml:space="preserve">
     <value>- application '{0}' is already in use by profile '{1}'</value>
   </data>
+  <data name="ApplicationAlreadyExistsInProfile" xml:space="preserve">
+    <value>Application already exists in this profile.</value>
+  </data>
+  <data name="ApplicationAlreadyInUseByOtherProfile" xml:space="preserve">
+    <value>Application already in use by other profile</value>
+  </data>
   <data name="ApplicationIdentifierRequired" xml:space="preserve">
     <value>Enter a filename, UWP ID, or absolute path.</value>
   </data>
@@ -540,6 +546,63 @@ Note: NVIDIA predefined profiles cannot be restored until the next driver instal
   </data>
   <data name="FilterSettingsTooltip" xml:space="preserve">
     <value>Filter settings by type</value>
+  </data>
+  <data name="FilterSourceButtonTooltip" xml:space="preserve">
+    <value>Filter setting and value sources</value>
+  </data>
+  <data name="FilterFlyoutSettingSource" xml:space="preserve">
+    <value>SETTING SOURCE</value>
+  </data>
+  <data name="FilterFlyoutValueSource" xml:space="preserve">
+    <value>VALUE SOURCE</value>
+  </data>
+  <data name="FilterFlyoutCommonCsn" xml:space="preserve">
+    <value>Common (CSN)</value>
+  </data>
+  <data name="FilterFlyoutDriverApi" xml:space="preserve">
+    <value>Driver API</value>
+  </data>
+  <data name="FilterFlyoutDriverConstants" xml:space="preserve">
+    <value>Driver Constants</value>
+  </data>
+  <data name="FilterFlyoutReference" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="FilterFlyoutPredefinedScan" xml:space="preserve">
+    <value>Predefined Scan</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSources" xml:space="preserve">
+    <value>Show active settings from disabled sources</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSourcesTooltip" xml:space="preserve">
+    <value>Even if a setting source is off, show its settings when they are active in the current profile (predefined, global, or user value).</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSources" xml:space="preserve">
+    <value>Name &amp; description from inactive sources</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSourcesTooltip" xml:space="preserve">
+    <value>Allow a setting's name and description to come from sources that are currently disabled.</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValues" xml:space="preserve">
+    <value>Merge distinct values</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValuesTooltip" xml:space="preserve">
+    <value>Merge entries with the same value from different sources into one (highest-priority name wins).</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommon" xml:space="preserve">
+    <value>Add predefined app list to common values</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommonTooltip" xml:space="preserve">
+    <value>Let the predefined scan (app list) values merge into the matching common values instead of showing as separate rows.</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaults" xml:space="preserve">
+    <value>Restore defaults</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaultsTooltip" xml:space="preserve">
+    <value>Reset all filter and value options to their defaults</value>
+  </data>
+  <data name="ModifiedOnlyTooltip" xml:space="preserve">
+    <value>Show active or modified settings only</value>
   </data>
   <data name="GameExecutableNotFound" xml:space="preserve">
     <value>Game executable not found.</value>

@@ -166,6 +166,12 @@
   <data name="ApplicationAlreadyUsedByProfile" xml:space="preserve">
     <value>- アプリケーション '{0}' はプロファイル '{1}' で既に使用されています</value>
   </data>
+  <data name="ApplicationAlreadyExistsInProfile" xml:space="preserve">
+    <value>このプロファイルには既にアプリケーションが存在します。</value>
+  </data>
+  <data name="ApplicationAlreadyInUseByOtherProfile" xml:space="preserve">
+    <value>アプリケーションは既に別のプロファイルで使用されています</value>
+  </data>
   <data name="ApplicationIdentifierRequired" xml:space="preserve">
     <value>ファイル名、UWP ID、または絶対パスを入力してください。</value>
   </data>
@@ -540,6 +546,63 @@
   </data>
   <data name="FilterSettingsTooltip" xml:space="preserve">
     <value>種類で設定を絞り込む</value>
+  </data>
+  <data name="FilterSourceButtonTooltip" xml:space="preserve">
+    <value>設定と値のソースを絞り込む</value>
+  </data>
+  <data name="FilterFlyoutSettingSource" xml:space="preserve">
+    <value>設定ソース</value>
+  </data>
+  <data name="FilterFlyoutValueSource" xml:space="preserve">
+    <value>値ソース</value>
+  </data>
+  <data name="FilterFlyoutCommonCsn" xml:space="preserve">
+    <value>共通 (CSN)</value>
+  </data>
+  <data name="FilterFlyoutDriverApi" xml:space="preserve">
+    <value>ドライバー API</value>
+  </data>
+  <data name="FilterFlyoutDriverConstants" xml:space="preserve">
+    <value>ドライバー定数</value>
+  </data>
+  <data name="FilterFlyoutReference" xml:space="preserve">
+    <value>リファレンス</value>
+  </data>
+  <data name="FilterFlyoutPredefinedScan" xml:space="preserve">
+    <value>定義済みスキャン</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSources" xml:space="preserve">
+    <value>無効なソースのアクティブな設定を表示</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSourcesTooltip" xml:space="preserve">
+    <value>設定ソースがオフでも、現在のプロファイルでアクティブな設定（定義済み、グローバル、またはユーザー値）を表示します。</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSources" xml:space="preserve">
+    <value>非アクティブなソースの名前と説明</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSourcesTooltip" xml:space="preserve">
+    <value>現在無効なソースから設定の名前と説明を取得できるようにします。</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValues" xml:space="preserve">
+    <value>同じ値を結合</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValuesTooltip" xml:space="preserve">
+    <value>異なるソースにある同じ値の項目を 1 つに結合します（最も優先度の高い名前を使用）。</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommon" xml:space="preserve">
+    <value>定義済みアプリ一覧を共通値に追加</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommonTooltip" xml:space="preserve">
+    <value>定義済みスキャン（アプリ一覧）の値を、個別行として表示せず、一致する共通値に結合します。</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaults" xml:space="preserve">
+    <value>既定値に戻す</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaultsTooltip" xml:space="preserve">
+    <value>すべてのフィルターと値オプションを既定値にリセットします</value>
+  </data>
+  <data name="ModifiedOnlyTooltip" xml:space="preserve">
+    <value>アクティブまたは変更済みの設定のみ表示</value>
   </data>
   <data name="GameExecutableNotFound" xml:space="preserve">
     <value>ゲームの実行ファイルが見つかりません。</value>

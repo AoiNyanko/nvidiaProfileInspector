@@ -166,6 +166,12 @@
   <data name="ApplicationAlreadyUsedByProfile" xml:space="preserve">
     <value>- приложение '{0}' уже используется профилем '{1}'</value>
   </data>
+  <data name="ApplicationAlreadyExistsInProfile" xml:space="preserve">
+    <value>Приложение уже существует в этом профиле.</value>
+  </data>
+  <data name="ApplicationAlreadyInUseByOtherProfile" xml:space="preserve">
+    <value>Приложение уже используется другим профилем</value>
+  </data>
   <data name="ApplicationIdentifierRequired" xml:space="preserve">
     <value>Введите имя файла, UWP ID или абсолютный путь.</value>
   </data>
@@ -540,6 +546,63 @@
   </data>
   <data name="FilterSettingsTooltip" xml:space="preserve">
     <value>Фильтровать настройки по типу</value>
+  </data>
+  <data name="FilterSourceButtonTooltip" xml:space="preserve">
+    <value>Фильтровать источники настроек и значений</value>
+  </data>
+  <data name="FilterFlyoutSettingSource" xml:space="preserve">
+    <value>ИСТОЧНИК НАСТРОЕК</value>
+  </data>
+  <data name="FilterFlyoutValueSource" xml:space="preserve">
+    <value>ИСТОЧНИК ЗНАЧЕНИЙ</value>
+  </data>
+  <data name="FilterFlyoutCommonCsn" xml:space="preserve">
+    <value>Общие (CSN)</value>
+  </data>
+  <data name="FilterFlyoutDriverApi" xml:space="preserve">
+    <value>API драйвера</value>
+  </data>
+  <data name="FilterFlyoutDriverConstants" xml:space="preserve">
+    <value>Константы драйвера</value>
+  </data>
+  <data name="FilterFlyoutReference" xml:space="preserve">
+    <value>Справочник</value>
+  </data>
+  <data name="FilterFlyoutPredefinedScan" xml:space="preserve">
+    <value>Предопределенное сканирование</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSources" xml:space="preserve">
+    <value>Показывать активные настройки из отключенных источников</value>
+  </data>
+  <data name="FilterFlyoutShowActiveFromDisabledSourcesTooltip" xml:space="preserve">
+    <value>Даже если источник настроек отключен, показывать его настройки, когда они активны в текущем профиле (предопределенное, глобальное или пользовательское значение).</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSources" xml:space="preserve">
+    <value>Имя и описание из неактивных источников</value>
+  </data>
+  <data name="FilterFlyoutAllowMetaFromInactiveSourcesTooltip" xml:space="preserve">
+    <value>Разрешить брать имя и описание настройки из источников, которые сейчас отключены.</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValues" xml:space="preserve">
+    <value>Объединять одинаковые значения</value>
+  </data>
+  <data name="FilterFlyoutMergeDistinctValuesTooltip" xml:space="preserve">
+    <value>Объединять записи с одинаковым значением из разных источников в одну (используется имя с наивысшим приоритетом).</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommon" xml:space="preserve">
+    <value>Добавлять предопределенный список приложений к общим значениям</value>
+  </data>
+  <data name="FilterFlyoutAddPredefinedAppListToCommonTooltip" xml:space="preserve">
+    <value>Объединять значения предопределенного сканирования (список приложений) с совпадающими общими значениями вместо отображения отдельными строками.</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaults" xml:space="preserve">
+    <value>Восстановить значения по умолчанию</value>
+  </data>
+  <data name="FilterFlyoutRestoreDefaultsTooltip" xml:space="preserve">
+    <value>Сбросить все параметры фильтра и значений к значениям по умолчанию</value>
+  </data>
+  <data name="ModifiedOnlyTooltip" xml:space="preserve">
+    <value>Показывать только активные или измененные настройки</value>
   </data>
   <data name="GameExecutableNotFound" xml:space="preserve">
     <value>Исполняемый файл игры не найден.</value>
